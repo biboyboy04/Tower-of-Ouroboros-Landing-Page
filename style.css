@@ -2,7 +2,7 @@
   font-family: 'Electronic Highway Sign';
   font-style: normal;
   font-weight: normal;
-  src: local('Electronic Highway Sign'), url('EHSMB.woff') format('woff');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.woff') format('woff');
 }
 
 :root {
