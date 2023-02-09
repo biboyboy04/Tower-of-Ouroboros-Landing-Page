@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "ElectronicHighwayFont";
-  src: url("/fonts/EHSMB.TTF");
+  font-family: 'Electronic Highway Sign';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Electronic Highway Sign'), url('EHSMB.woff') format('woff');
 }
 
 :root {
@@ -10,7 +12,7 @@
 }
 
 body {
-  font-family: 'ElectronicHighwayFont';
+  font-family: 'Electronic Highway Sign';
   min-height: 100vh;
   display: flex;
   flex-direction: column;
