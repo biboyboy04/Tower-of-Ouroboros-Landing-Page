@@ -1,11 +1,9 @@
 @font-face {
   font-family: 'Electronic Highway Sign';
-  font-style: normal;
-  font-weight: normal;
   src: local('Electronic Highway Sign'), url('/fonts/EHSMB.woff') format('woff');
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.eot') format('eot');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.eot') format('embedded-opentype');
   src: local('Electronic Highway Sign'), url('/fonts/EHSMB.svg') format('svg');
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.TTF') format('ttf');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.TTF') format('truetype');
 
 }
 
@@ -13,6 +11,7 @@
   --violet: #4B437F;
   --green: #6F7E21;
   letter-spacing: 2px;
+  font-family: 'Electronic Highway Sign';
 }
 
 body {
