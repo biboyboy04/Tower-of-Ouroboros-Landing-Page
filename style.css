@@ -3,6 +3,10 @@
   font-style: normal;
   font-weight: normal;
   src: local('Electronic Highway Sign'), url('/fonts/EHSMB.woff') format('woff');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.eot') format('eot');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.svg') format('svg');
+  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.TTF') format('ttf');
+
 }
 
 :root {
