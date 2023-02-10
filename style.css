@@ -30,7 +30,7 @@ body {
   background-color: black;
 }
 
-ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
+ul, .hero-sub-text, .info-text, .hero, .call-to-action-secondary-text {
   font-size: 2.4vmin;
 }
 
@@ -61,7 +61,7 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
   position: sticky;
   top: 0;
   display: flex;
-  padding: 0% 8% 0%;
+  padding: 1.2vmin 8% 1.2vmin;
   align-items: center;
 }
 
@@ -86,7 +86,7 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
   gap: 3vmin;
 }
 
-.header li:hover {
+.header li:hover, .header li:focus {
   color: var(--green);
 }
 
@@ -101,8 +101,8 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
 
 .hero-container-text {
   display: flex;
-  flex-wrap: wrap;
-  padding-right: 5%;
+  padding-right: 1vmin;
+  flex-direction: column;
 }
 
 .hero img {
@@ -116,9 +116,20 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
   color: var(--green);
 }
 
+.hero-secondary-main-text {
+  font-size: 4vmin;
+  font-weight: bolder;
+  color: var(--green);
+  margin-bottom: -2vmin;
+}
+
+.hero a {
+  width: 50vmin;
+  height: auto;
+}
+
 .hero button{
-  margin-top: 6%;
-  padding: 1% 3.5% 1%;
+  padding: 2% 7% 2%;
 }
 
 .hero button:hover {
@@ -186,8 +197,6 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
   text-align: center;
 }
 
-
-
  .screenshot img {
   width:100%;
   height:100%;
@@ -246,9 +255,12 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
 .call-to-action-secondary-text {
   color: white;
 }
-
+.call-to-action a {
+  width: 15vmin;
+  height: auto;
+}
 .call-to-action button {
-  padding: 1% 1% 1%;
+  padding: 7% 2% 4%;
 }
 
 .call-to-action button:hover {
@@ -268,36 +280,6 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-/*Sign up form */
-
-.message-header {
-  text-align: center;
-}
-
-.group {
-  display: flex;
-  margin-bottom: 3vmin;
-}
-
-.label-container {
-  display: flex;
-  flex-direction: column;
-}
-
-form .button {
-  padding: 1% 1% 1%;
-}
-
-.attribution {
-  font-size: inherit;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer a{
-  color: #B4914D;
 }
 
 .icons {
