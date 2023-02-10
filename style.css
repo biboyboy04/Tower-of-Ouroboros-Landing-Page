@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Electronic Highway Sign';
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.woff') format('woff');
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.eot') format('embedded-opentype');
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.svg') format('svg');
-  src: local('Electronic Highway Sign'), url('/fonts/EHSMB.TTF') format('truetype');
+  src: local('Electronic Highway Sign'), url('./fonts/EHSMB.woff') format('woff');
+  src: local('Electronic Highway Sign'), url('./fonts/EHSMB.eot') format('embedded-opentype');
+  src: local('Electronic Highway Sign'), url('./fonts/EHSMB.svg') format('svg');
+  src: local('Electronic Highway Sign'), url('./fonts/EHSMB.TTF') format('truetype');
 
 }
 
